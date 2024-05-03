@@ -67,6 +67,7 @@ Debes generar un repositorio en GitHub. Para esto ingresa a [**GITHUB**](https:/
 
 El objetivo de este ejercicio es que crees un nuevo repositorio llamado "_**RepositorioHenry**_".
 
+git clone https://github.com/jzenklusen/RepositorioHenry.git
 ---
 
 </br >
@@ -75,6 +76,10 @@ El objetivo de este ejercicio es que crees un nuevo repositorio llamado "_**Repo
 
 En este ejercicio debes ingresar dentro del repositorio y crear una nueva carpeta con el nombre "_CarpetaHenry_". Utiliza los comandos de más arriba.
 
+cd Desktop
+cd RepositorioHenry
+mkdir 'Carpeta Henry'
+
 ---
 
 </br >
@@ -82,6 +87,7 @@ En este ejercicio debes ingresar dentro del repositorio y crear una nueva carpet
 ### **📍 EJERCICIO 03**
 
 Ingresa a la carpeta que acabas de crear utilizando los comandos ya aprendidos.
+cd 'Carpeta Henry'
 
 ---
 
@@ -91,11 +97,17 @@ Ingresa a la carpeta que acabas de crear utilizando los comandos ya aprendidos.
 
 Ahora debes crear un archivo llamado "**_primerArchivo.txt_**". Revisa el comando correspondiente a partir del sistema operativo que utilices (Linux o Windows).
 
+touch primerArchivo.txt
+
 </br >
 
 ## **💻 SUBE TUS AVANCES**
 
 Te invitamos, cada vez que termines una homework, a que subas tus avances a tu repositorio. ¿Recordemos cómo hacer esto?
+
+git add .
+git commit -m "Prueba Henry 01"
+git push -u
 
 Deberás ejecutar estos comandos:
 
