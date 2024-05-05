@@ -8,40 +8,67 @@
 <body>
 <!-- Es importante usar DVIS o HR para dar separadores -->
 <!-- HR es una etiqueta que se cierra a si misma <hr /> -->
-    <!-- Los headers son para dar orden y lineamiento -->
+    
+<!-- Los headers son para dar orden y lineamiento -->
+    <!-- HEADER es para poner el encabezado de la pagina -->
+    <header>
+        <h1>Este es el título principal de mi página web</h1>
+            <!-- Como hago para que el texto este uno debajo del otro? -->
+            <!-- voy a usar la etiqueta span -->
+        <span>HOME </span>
+        <span>NOTICIAS </span>
+        <span>EL CLIMA </span>
+    </header>
 
+    <!-- MAIN para dar indicaccion de que es la parte MEDIA DE nuestr web -->
+    <main>
+        <img src="./noticias.jpeg" /> 
+        <!-- SECTION PARA SECCION NOTICIAS -->
+        <!-- ETIQUETA DIV ES LA CAJA UNIVERSAL
+        PARA AGRUPAR ELEMENTOS -->
+        <section>
+            <article>
+                <h2>Esta es una sección de noticias</h2>
+                <h3>Esta es una noticia N1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente necessitatibus non, amet fuga rem esse id architecto quasi omnis laboriosam quisquam dicta! Recusandae est cupiditate doloremque quasi deleniti omnis!</p>
+            </article>
+            <hr />
+            <article>
+                <h3>Esta es la noticia N2 con bullets</h3>
+                <!-- De esta manera creamos una lista de bullets no ordenada -->
+                <ul>
+                    <li>estos son bullets</li>
+                    <li>estos son bullets</li>
+                    <li>estos son bullets</li>
+                </ul>
+            </article>
+            <hr />
+            
+            <article>
+                <h3>Esta es la noticia N3 con lista numerada</h3>
+                <!-- OL viene de order list para crear un formato de listas -->
+                <ol>       
+                    <!-- Esto es para crear listas numeradas -->
+                    <li>List item</li>
+                    <li>List item</li>
+                    <li>List item</li> 
+                    <!-- Luego se pueden tener bullets con UL -->
+                </ol>
+            </article>
+            <hr />
+        </section>
+    </main>
 
-    <!-- Como hago para que el texto este uno debajo del otro? -->
-    <!-- voy a usar la etiqueta span -->
-    <h1>Este es el título principal de mi página web</h1>
-    <span>HOME </span>
-    <span>NOTICIAS </span>
-    <span>EL CLIMA </span>
-
-    <h2>Esta es una sección de noticias</h2>
-    <h3>Esta es una noticia N1</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente necessitatibus non, amet fuga rem esse id architecto quasi omnis laboriosam quisquam dicta! Recusandae est cupiditate doloremque quasi deleniti omnis!</p>
-        <hr />
-    <h3>Esta es la noticia N2 con bullets</h3>
-    <!-- De esta manera creamos una lista de bullets no ordenada -->
-    <ul>
-        <li>estos son bullets</li>
-        <li>estos son bullets</li>
-        <li>estos son bullets</li>
-    </ul>
-    <hr />
-    <h3>Esta es la noticia N3 con lista numerada</h3>
-    <!-- OL viene de order list para crear un formato de listas -->
-    <ol>       
-        <!-- Esto es para crear listas numeradas -->
-        <li>List item</li>
-        <li>List item</li>
-        <li>List item</li> 
-        <!-- Luego se pueden tener bullets con UL -->
-    </ol>
-    <hr />
-
+    <footer>
+        <p>Este es el footer de mi página. Ahora voy a poner unos enlaces</p>
+        <span>Enlace 1 | </span>
+        <span>Enlace 2 | </span>
+        <span>Enlace 3</span>
+    </footer>
 
 
 </body>
 </html>
+
+<!-- IMG PARA AGREGAR UNA IMAGEN -->
+    <!-- EL ATRIBUTO DE UNA ETIQUETA ES IMPORTANTE -->
