@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Este es un formulario de contacto</h1>
+    </header>
+
+    <main>
+        <div>
+            <h2>Este es un formulario para que puedas contactarnos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates obcaecati quas eius ratione perferendis rerum officiis ipsa rem dolorum tenetur, odit quaerat vel id iure tempora quisquam quasi, nisi mollitia!</p>
+        </div>
+
+        <!-- Para incluir los elementos tipicos de un formulario -->
+        <form>
+            <!-- La etiqueta input nos da un campo para que el usuario meta información -->
+            <!-- la etiqueta label es lo que vamos a ver en el input -->
+            <!-- DIV para crear cajitas -->
+            <!-- para asignar label con input tengo que tener el type y el label for igual -->
+            <div>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" />
+            </div>
+
+            <div>
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apelido" />
+             </div> 
+             
+            <div>
+                <label for="edad">Edad: </label>
+                <input type="number" name ="edad" />
+            </div>
+
+            <div>
+                <label for="password">Contraseña: </label>
+                <input type="password" name="password">
+            </div>
+            
+            <!-- <div>
+                <input type="color">
+            </div> -->
+
+            <!-- Dado que estamos dentro del form
+            El boton ENVIAR crea como HTML -->
+            <button>ENVIAR</button>
+            
+        </form>
+
+    </main>
+    
+</body>
+</html>
