@@ -1,0 +1,40 @@
+/* Genericos para todo las secciones */
+body {
+    background-color: chocolate;
+}
+
+/* Clases con .  */
+
+.title{
+    font-size: 3em;
+    color: crimson
+}
+
+/* ID con #  */
+#principal{
+    font-size: 4.5em;
+}
+
+.logo{
+    width: 200px;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 10%;
+    transition: 1s;
+}
+
+.cards.hover{
+    background-color: darkgoldenrod;
+}
+
+#titulos{
+    border: 2px solid black;
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+
+}
