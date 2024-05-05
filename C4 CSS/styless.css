@@ -27,8 +27,8 @@ body {
     transition: 1s;
 }
 
-.cards.hover{
-    background-color: darkgoldenrod;
+.cards:hover{
+    background-color: rgb(41, 39, 36);
 }
 
 #titulos{
