@@ -3,28 +3,35 @@ body {
     background-color: chocolate;
 }
 
+/* ID con #  */
+#principal{
+    font-size: 4em;
+}
+
 /* Clases con .  */
 
 .title{
-    font-size: 3em;
-    color: crimson
+    font-size: 2.8em;
+    color: rgb(31, 10, 137)
 }
 
-/* ID con #  */
-#principal{
-    font-size: 4.5em;
-}
+
 
 .logo{
     width: 200px;
+    height: 200px;
 }
 
 .cards{
     border: 2px solid black;
     width: fit-content;
-    padding: 0px 1em 0px 1em;
+    padding: 5px 1em 5px 1em;
     border-radius: 10%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
 }
 
 .cards:hover{
@@ -32,9 +39,39 @@ body {
 }
 
 #titulos{
-    border: 2px solid black;
+   
     width: 60vw;
     margin: auto;
     padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards-container{
+    /* para que pantalla sea x% */
+    width: 85vw;
+    /* para poner en medio */
+    margin: auto;
+    /* para despegar de arriba */
+    margin-top: 1.5em;
+    border: 5px solid black;
+    border-radius: 15px;
+    /* para despegarme hacia adentro--> padding */
+    padding: 2em;
+
+    /* a partir de ahora vas a seguir
+    la logica de FLEX
+    y hay propiedades que tienen sentido en flex solamente */
+    display: flex;
+
+    /* predeterminado flex es fila, pero puedo cambiar a columna */
+    flex-direction: row;
+    justify-content: flex-start;
+        /* aca para dar posiciones */
+    justify-content: space-evenly;
+
+    
+
 
 }

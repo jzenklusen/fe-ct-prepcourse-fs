@@ -1,0 +1,60 @@
+/* reset.css - Elimina los márgenes, paddings y otros estilos por defecto de todos los elementos HTML */
+
+/* Restablecer los márgenes y paddings de todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que padding y border sean incluidos en el tamaño total del elemento */
+}
+
+/* Restablecer la lista de estilos para elementos de lista */
+ul, ol {
+    list-style: none;
+}
+
+/* Restablecer los estilos de enlaces para remover subrayado y color por defecto */
+a {
+    text-decoration: none;
+    color: inherit; /* Los enlaces usarán el color de texto del elemento padre */
+}
+
+/* Restablecer el estilo de las tablas para evitar espacios entre celdas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Restablecer los estilos de los campos de formulario para mejorar la consistencia entre navegadores */
+input, button, textarea, select {
+    font-family: inherit; /* Hereda la fuente del elemento padre */
+    font-size: 100%; /* Evita cambios de tamaño en navegadores diferentes */
+    line-height: 1.15; /* Normaliza la altura de línea */
+}
+
+/* Restablecer los estilos de imagen y objetos para evitar distorsiones */
+img, video {
+    max-width: 100%; /* Evita que las imágenes y videos sean más grandes que su contenedor */
+    height: auto; /* Mantiene la proporción original al ajustar la anchura */
+}
+
+/* Restablecer el estilo del formulario fieldset */
+fieldset {
+    border: 0; /* Elimina el borde por defecto */
+    padding: 0;
+    margin: 0;
+}
+
+/* Restablecer el margen de todos los elementos */
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+/* Restablecer la propiedad de herencia para todas las propiedades que comúnmente afectan al diseño */
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
