@@ -5,9 +5,9 @@ const buscarElemento = (array, callback) => {
   // Tu código:
 
 
-  
 
 
-};
+
+}
 
 module.exports = buscarElemento;
